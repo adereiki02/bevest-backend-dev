@@ -1,0 +1,28 @@
+{
+  "name": "bevest-backend",
+  "version": "1.0.0",
+  "description": "<h2> Repository Cloud Computing Bevest Apps",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bevest-Technology/bevest-cloudcomputing.git"
+  },
+  "author": "Reiki Master",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bevest-Technology/bevest-cloudcomputing/issues"
+  },
+  "homepage": "https://github.com/Bevest-Technology/bevest-cloudcomputing#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "6.15.x",
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "^2.18.1"
+  }
+}
